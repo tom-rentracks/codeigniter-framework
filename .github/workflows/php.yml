@@ -35,6 +35,6 @@ jobs:
           git push origin master
         # Change the below to your settings
         env:
-          GIT_NAME: ${{ secrets.GitName }}
-          GIT_EMAIL: ${{ secrets.GitEmail }}
+          GIT_NAME: ${{ secrets.GITNAME }}
+          GIT_EMAIL: ${{ secrets.GITEMAIL }}
           REPO_FORK: https://github.com/codeigniter4/framework.git
